@@ -1,0 +1,34 @@
+C:\Users\User\Documents>mkdir kadai1
+
+C:\Users\User\Documents>cd kadai1
+
+C:\Users\User\Documents\kadai1>git init
+Initialized empty Git repository in C:/Users/User/Documents/kadai1/.git/
+
+C:\Users\User\Documents\kadai1>git add hello_world.txt
+
+C:\Users\User\Documents\kadai1>git commit -m "hello_world.txtを追加"
+[main (root-commit) da3275e] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+
+C:\Users\User\Documents\kadai1>git add hello_world.txt
+
+C:\Users\User\Documents\kadai1>git commit -m "日本語約を追記"
+[main 3d0b5ff] 日本語約を追記
+ 1 file changed, 2 insertions(+)
+
+C:\Users\User\Documents\kadai1>git log --oneline
+3d0b5ff (HEAD -> main) 日本語約を追記
+da3275e hello_world.txtを追加
+
+C:\Users\User\Documents\kadai1>
+
+
+
+
+
+
+
+
+
